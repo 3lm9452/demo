@@ -3,7 +3,7 @@ A demo project for a phone number validator.
 
 # Run the application
 
-You can build the JAR file with 'mvn clean packageì and then run the JAR file, as follows:
+You can build the JAR file with 'mvn clean package' and then run the JAR file, as follows:
 
 java -jar target/demo-0.0.1-SNAPSHOT.jar
 
