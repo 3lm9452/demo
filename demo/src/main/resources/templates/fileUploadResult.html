@@ -1,0 +1,25 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<body>
+
+
+	<h1>Result</h1>
+
+	<table>
+	    <thead>
+	        <tr>
+	            <th> Id </th>
+	            <th> Number </th>
+	            <th> Valid </th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	        <tr th:each="number : ${numbers}">
+	            <td><span th:text="${number.id}"></td>
+	            <td><span th:text="${number.number}"></td>
+	            <td><span th:text="${number.valid}"></td>
+	        </tr>
+	    </tbody>
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<html xmlns:th="https://www.thymeleaf.org">
+<body>
+
+
+	<h1>Result</h1>
+    <p th:text="'number: ' + ${phoneNumber.number}" />
+
+	<div th:if="${message}">
+		<h2 th:text="${message}"/>
+	</div>
+
+    <a href="/check">Check another number</a>
+</body>
+</html>
